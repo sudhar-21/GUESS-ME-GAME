@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> GUESS ME GAME</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="word-list.js" defer></script>
+    <script src="script.js" defer></script>
+    
+</head>
+<body>
+    <div class="game-modal">
+        <div class="content">
+            <img src="lost.gif" alt="gif">
+            <h4>!!!!! GAME OVER !!!!!</h4>
+            <p>The correct word was: <b>rainbow</b></p>
+             <button class="play-again">PLAY AGAIN </button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="hangman-box">
+            <img src="hangman-0.svg" alt="hangman">
+            <h1> GUESS ME</h1>
+        </div>
+        <div class="game-box">
+            <ul class="word-display"></ul>
+            <h4 class="hint-text">
+                HINT:
+                <b> this is the game you want to play</b>
+            </h4>
+            <h4 class="guessessed-text">
+                INCORRECT GUESSES:
+                <b>0 / 6</b>
+            </h4>
+            <div class="keyboard">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
